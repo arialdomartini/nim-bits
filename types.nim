@@ -14,3 +14,14 @@ type
 echo "ord(Direction.north) == " , ord(north)
 echo "ord(Direction.south) == " , ord(south)
 echo "Is north < south? " , north < south
+
+
+type
+    PureDirection {.pure.} = enum
+        n = "nord",
+        e = "est",
+        s = "sud",
+        w = "ovest"
+
+echo "ord(n) would produce an error since PureDirection is pure"
+echo "its values can be accessed with PureDirection.n = " , PureDirection.n
