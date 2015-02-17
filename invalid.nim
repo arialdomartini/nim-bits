@@ -1,3 +1,4 @@
+# this program produces a runtime error
 var a: array[0..1, char]
 let i = 5
 try:
