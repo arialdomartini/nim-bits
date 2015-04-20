@@ -18,3 +18,8 @@ echo "c = 11 would rise an error"
 # both lk and res are constant, but lk must be defined at compile time
 const lk = 100
 let res = readLine(stdin)
+
+if res == "secret":
+    echo "Great, you discoverd the secret word"
+else:
+    echo "wrong, try with \"secret\""
