@@ -1,3 +1,6 @@
+for i in countup(1,10):
+    echo i
+
 from strutils import parseInt
 
 echo("Choose a number between 0 and 10")
