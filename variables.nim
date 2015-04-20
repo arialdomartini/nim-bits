@@ -1,3 +1,17 @@
+echo("Let's play with scopes")
+
+block one:
+    const a = 1
+    echo("the constant a is ", $a)
+
+#echo($a) would rise an error
+
+
+block two:
+    const a = 2
+    echo("I've been able to define a new constant, in another block. Its value is ", $a)
+
+
 var
     a, b = 10
     c = "text"
