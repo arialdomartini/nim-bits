@@ -18,3 +18,6 @@ print_its_own_parameters("one", "two")
 print_its_own_parameters(second = "two", first ="one")
 
 print_its_own_parameters(first=10, second=20)
+
+if 10 == 7+3: echo "true!"
+if `==`(10, `+`(7, 3)): echo "true!"
